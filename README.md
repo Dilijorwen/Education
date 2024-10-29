@@ -3,7 +3,7 @@
 
 ## BigData
 
-[gg](https://github.com/Dilijorwen/Education/blob/main/projects/lab1.R)
+- Построение и визуализация датасета [R](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab1.R)[Отчет]()
 
 ## Cluster and factor analysis
 
