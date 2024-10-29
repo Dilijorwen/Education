@@ -3,6 +3,8 @@
 
 ## BigData
 
+[gg](https://github.com/Dilijorwen/Education/blob/main/projects/lab1.R)
+
 ## Cluster and factor analysis
 
 ## Computational maths
