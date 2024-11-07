@@ -1,11 +1,11 @@
 # 3 курс 5 семестр МКТ (Б9122-01.03.02)
-## Optimisation methods
+## Методы оптимизации
 
-## BigData
+## Компьютерные методы анализа больших данных
 
 - Построение и визуализация датасета [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab1.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_lab1.pdf)
 
-## Cluster and factor analysis
+## Кластерный и факторный анализ
 
 - Первичный анализ данных [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_1.ipynb)
 - Визуализация данных [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_2.ipynb)
@@ -17,18 +17,18 @@
 [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
 [[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
 
-## Computational maths
+## Вычислительная математика
 
 
 # 2 курс 4 семестр МКТ (Б9122-01.03.02)
 
-## Coursework on graphs
+## Курсовая работа по графам
 - Team project [[**Resistance distance**]](https://github.com/Dilijorwen/Resistance-distance)
 
 
 # 2 курс 3 семестр МКТ (Б9122-01.03.02)
 
-## Coursework projects in Swift
+## Командный курсовой проект на Swift
 - Team project [[**NS**]](https://github.com/Dilijorwen/NS)
 
 
