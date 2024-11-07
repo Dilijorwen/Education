@@ -14,9 +14,8 @@
 - Разбор единого подхода к предварительной обработки данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_5.ipynb)
 
 #### Datasets:
-[[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
-
-[[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
+- [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
+- [[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
 
 ## Вычислительная математика
 
