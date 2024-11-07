@@ -13,6 +13,10 @@
 - Логические методы классификации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_4.ipynb)
 - Разбор единого подхода к предварительной обработки данных [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_5.ipynb)
 
+
+[[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
+[[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
+
 ## Computational maths
 
 
