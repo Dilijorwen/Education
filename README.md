@@ -7,11 +7,12 @@
 
 ## Кластерный и факторный анализ
 
-- Первичный анализ данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_1.ipynb)
-- Визуализация данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_2.ipynb)
-- Метрические методы классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_3.ipynb)
-- Логические методы классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_4.ipynb)
-- Разбор единого подхода к предварительной обработки данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_5.ipynb)
+- (10/10)Первичный анализ данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_1.ipynb)
+- (9/10)Визуализация данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_2.ipynb)
+- (10/10)Метрические методы классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_3.ipynb)
+- (10/10)Логические методы классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_4.ipynb)
+- (NaN/10)Разбор единого подхода к предварительной обработки данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_5.ipynb)
+- (NaN/10)Построение пайплайна одномерной регрессии [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_6.ipynb)
 
 #### Datasets:
 - [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
