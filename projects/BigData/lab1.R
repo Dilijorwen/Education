@@ -1,5 +1,8 @@
 library(ggplot2)
 
+# Ставим рабочую дирректорию для R
+setwd("/Users/daniil/Desktop/Обучение/BigData")
+
 # Загрузка данных
 diamond <- read.csv(file = "rand5.csv", header = TRUE, sep = ",")
 # Вывод размерности до очистки
@@ -12,17 +15,17 @@ diamond <- na.omit(diamond)
 cat("Размерность после чистки:", dim(diamond), "\n")
 head(diamond)
 
-# Вывод уникальных значений столбца color
+# Вывод уникальных ord factor значений столбца color
 unique(diamond$color)
 
-# Пересылаем два последних(два самых ходших значения в толбце color)
+# Пересылаем два самых ходших значения в толбце color
 worst_colors <- sort(unique(diamonds$color))[1:2]
 
 
-# Вывод уникальных значений столбца cut
-unique(diamond$cut)
+# Вывод уникальных ord factor значений столбца cut
+sort(unique(diamonds$cut))
 
-# Пересылаем два последних(два самых ходших значения в толбце cut)
+# Пересылаем два самых ходших значения в толбце cut
 worst_cuts <- sort(unique(diamonds$cut))[1:2]
 
 
