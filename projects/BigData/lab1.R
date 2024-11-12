@@ -1,12 +1,9 @@
-library(dplyr)
 library(ggplot2)
 
 # Загрузка данных
 diamond <- read.csv(file = "rand5.csv", header = TRUE, sep = ",")
-str(diamond)
 # Вывод размерности до очистки
 cat("Размерность до чистки:", dim(diamond), "\n")
-head(diamond)
 
 # Удаление пропусков
 diamond <- na.omit(diamond)
@@ -18,14 +15,16 @@ head(diamond)
 # Вывод уникальных значений столбца color
 unique(diamond$color)
 
-# Пересылаем два последних(два самых худших значения в толбце color)
-worst_colors <- unique(diamond$color)[6:7]
+# Пересылаем два последних(два самых ходших значения в толбце color)
+worst_colors <- sort(unique(diamonds$color))[1:2]
+
 
 # Вывод уникальных значений столбца cut
 unique(diamond$cut)
 
-# Пересылаем два последних(два самых худших значения в толбце cut)
-worst_cuts <- unique(diamond$cut)[4:5]
+# Пересылаем два последних(два самых ходших значения в толбце cut)
+worst_cuts <- sort(unique(diamonds$cut))[1:2]
+
 
 # Создаем subset под нужные требования
 subset <- diamond[(diamond$cut %in% worst_cuts) & (diamond$color %in% worst_colors), ]
@@ -41,7 +40,7 @@ summary
 
 # Рисуем графики
 ggplot(subset, aes(x = carat, fill = interaction(color, cut))) +
-  geom_histogram(binwidth = 0.1, position = "dodge") +
+  geom_histogram(binwidth = 0.1, position = "stack") +
   labs(title = "Distribution of Diamond Carat by Color and Cut",
        x = "Carat",
        y = "Count") +
@@ -50,7 +49,7 @@ ggplot(subset, aes(x = carat, fill = interaction(color, cut))) +
 
 
 ggplot(subset, aes(x = price, fill = interaction(color, cut))) +
-  geom_histogram(binwidth = 500, position = "dodge") +
+  geom_histogram(binwidth = 500, position = "stack") +
   labs(title = "Distribution of Diamond Price by Color and Cut",
        x = "Price",
        y = "Count") +
