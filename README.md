@@ -5,6 +5,10 @@
 
 - Построение и визуализация датасета [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab1.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_lab1.pdf)
 
+#### Datasets:
+- [[Mini Diamonds]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/rand5.csv)
+
+
 ## Кластерный и факторный анализ
 
 - Первичный анализ данных [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_1.ipynb)
