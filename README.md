@@ -28,6 +28,7 @@
 - LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]]()
 - Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
 - Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
+- Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
 
 
 # 2 курс 4 семестр МКТ (Б9122-01.03.02)
