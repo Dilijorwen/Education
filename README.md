@@ -1,9 +1,11 @@
 # 3 курс 5 семестр МКТ (Б9122-01.03.02)
-## Методы оптимизации
+## Вычислительная математика
 
-- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py) [[**PDF**]]()
-
-- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**PDF**]]()
+- Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
+- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]]()
+- Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
+- Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
+- Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
 
 ## Компьютерные методы анализа больших данных
 
@@ -26,13 +28,11 @@
 - [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
 - [[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
 
-## Вычислительная математика
 
-- Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
-- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]]()
-- Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
-- Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
-- Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
+## Методы оптимизации
+
+- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py) [[**PDF**]]()
+- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**PDF**]]()
 
 
 # 2 курс 4 семестр МКТ (Б9122-01.03.02)
