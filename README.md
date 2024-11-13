@@ -1,9 +1,9 @@
 # 3 курс 5 семестр МКТ (Б9122-01.03.02)
 ## Методы оптимизации
 
-- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py) [[**LaTeX**]]()
+- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py) [[**PDF**]]()
 
-- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**LaTeX**]]()
+- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**PDF**]]()
 
 ## Компьютерные методы анализа больших данных
 
