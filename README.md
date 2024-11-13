@@ -1,4 +1,4 @@
-# 3 курс 5 семестр МКТ (Б9122-01.03.02)
+# 3 курс 5 семестр ПМИ (Б9122-01.03.02мкт)
 ## Вычислительная математика
 
 - Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
@@ -35,13 +35,13 @@
 - Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**PDF**]]()
 
 
-# 2 курс 4 семестр МКТ (Б9122-01.03.02)
+# 2 курс 4 семестр ПМИ (Б9122-01.03.02мкт)
 
 ## Курсовая работа по графам
 - Team project [[**Resistance distance**]](https://github.com/Dilijorwen/Resistance-distance)
 
 
-# 2 курс 3 семестр МКТ (Б9122-01.03.02)
+# 2 курс 3 семестр ПМИ (Б9122-01.03.02мкт)
 
 ## Командный курсовой проект на Swift
 - Team project [[**NS**]](https://github.com/Dilijorwen/NS)
