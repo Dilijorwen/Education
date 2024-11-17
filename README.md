@@ -6,6 +6,7 @@
 - Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
 - Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
 - Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
+- Метод Successive over-relaxation [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/SOR.py)
 
 ## Компьютерные методы анализа больших данных
 
