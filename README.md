@@ -9,7 +9,7 @@
 - Метод релаксации(Successive over-relaxation). Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/SOR.py)
 
 ## Дифференциальные уравнения
-- Матрица Гурвиа [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
+- Матрица Гурвица [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
 
 ## Компьютерные методы анализа больших данных
 
