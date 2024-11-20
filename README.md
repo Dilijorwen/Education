@@ -8,6 +8,9 @@
 - Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
 - Метод релаксации(Successive over-relaxation). Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/SOR.py)
 
+## Дифференциальные уравнения
+- Матрица Гурвиа [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
+
 ## Компьютерные методы анализа больших данных
 
 - Построение и визуализация датасета [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab1.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_lab1.pdf)
