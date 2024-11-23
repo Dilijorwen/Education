@@ -14,6 +14,7 @@
 ## Компьютерные методы анализа больших данных
 
 - Построение и визуализация датасета [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab1.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_lab1.pdf)
+- Построение модели линейной регрессии для прогноза на основе датасета [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab2.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_lab2.pdf)
 
 #### Datasets:
 - [[Mini Diamonds]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/rand5.csv)
