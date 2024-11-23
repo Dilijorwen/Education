@@ -56,7 +56,6 @@ def simple(A, b, tol=1e-15, max_iter=10000):
 #
 # b = np.array([-7.0, 5.3, 10.3, 24.6])
 
-# Ваш текущий пример матрицы
 A = np.array([
     [3.82, 1.02, 0.75, 0.81],
     [1.05, 4.53, 0.98, 1.53],
@@ -66,25 +65,21 @@ A = np.array([
 
 b = np.array([15.655, 22.705, 23.480, 16.110])
 
-# Проверка строгого диагонального преобладания
-
 # Значения w для сравнения в методе SOR
 w_values = [0.01, 0.5, 1, 1.5, 1.99]
 sor_results = []
 
 for w in w_values:
-    solution, iterations = sor_method(A, b, w)
-    sor_results.append((w, iterations, solution))
+    sor_solution, sor_iterations = sor_method(A, b, w)
+    sor_results.append((w, sor_iterations, sor_solution))
 
-# Решение методом простой итерации (Якоби)
-jacobi_solution, jacobi_iterations = simple(A, b)
+simple_solution, simple_iterations = simple(A, b)
 
-# Вывод результатов
 print(f"{'Метод':<15} {'w':<6} {'Итерации':<12} {'Решение'}")
 print("-" * 60)
 for w, iters, sol in sor_results:
     print(f"{'SOR':<12} {w:<6} {iters:<12} {np.round(sol, 6)}")
-print(f"{'Простая итерация':<12} {'-':<6} {jacobi_iterations:<12} {np.round(jacobi_solution, 6)}")
+print(f"{'Простая итерация':<12} {'-':<6} {simple_iterations:<12} {np.round(simple_solution, 6)}")
 
 """
 При w → 0: Метод нижней релаксации (подрелаксации). Здесь обновления переменных происходят очень медленно, 
