@@ -7,6 +7,11 @@
 - Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
 - Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
 - Метод релаксации(Successive over-relaxation). Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/SOR.py)
+- @Метод гарадиентного спуска [[**Python**]]()
+- @Метод вращения с преградами [[**Python**]]()
+- @Метод Ричардсона [[**Python**]]()
+- @Метод простой итерации [[**Python**]]() [[**Отчет**]]()
+- @Метод обратной итерации [[**Python**]]()
 
 ## Дифференциальные уравнения
 - Матрица Гурвица [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
@@ -30,8 +35,8 @@
 - Построение пайплайна одномерной регрессии [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_6.ipynb)
 - Использование разработанного пайплайна для многомерной регрессии [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_7.ipynb)
 - Полиномиальная регрессия [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_8.ipynb)
-- Лабараторная №9 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_9.ipynb) @@@@@@@@@
-- Лабараторная №10 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_10.ipynb) @@@@@@@@@@
+- @Лабараторная №9 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_9.ipynb)
+- @Лабараторная №10 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_10.ipynb)
 
 #### Datasets:
 - [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
