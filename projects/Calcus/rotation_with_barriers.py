@@ -68,7 +68,6 @@ def rotation_with_barriers(A, sigma):
             print("Превышено максимальное количество итераций.")
             break
 
-    # Извлечение собственных значений из диагонали
     eigenvalues = [a[i, i] for i in range(n)]
     eigenvalues.sort()
 
@@ -136,13 +135,11 @@ def main():
         print("Исходная матрица:")
         print(matrix)
 
-        # Выполнение метода вращений Жакоби с барьерами
         eigenvalues, iterations = rotation_with_barriers(matrix.copy(), sigma)
 
         print(f"\nСконвергировалось за {iterations} итераций.")
         print(f"Собственные значения: {eigenvalues}")
 
-        # Проверка собственных значений
         print("\nПроверка собственных значений:")
         verify_eigenvalues(matrix, eigenvalues, sigma)
 
