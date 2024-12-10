@@ -6,9 +6,9 @@ def lu(A, b):
     n = len(A)
     L = np.zeros((n, n))
     U = np.zeros((n, n))
-    y = np.zeros_like(b)  # Вспомогательный вектор для решения L * y = b
+    y = np.zeros_like(b)
 
-    # LU-разложение
+
     for i in range(n):
         # Заполнение верхней треугольной матрицы U
         for k in range(i, n):
@@ -23,17 +23,17 @@ def lu(A, b):
 
     print(tabulate(L), tabulate(U))
 
-    # Прямой ход метода решения L * y = b
+    # Прямой ход метода решения
     for i in range(n):
         sum_forward = sum(L[i][j] * y[j] for j in range(i))
-        y[i] = b[i] - sum_forward  # Вычисляем элемент вектора y
+        y[i] = b[i] - sum_forward
 
-    x = np.zeros_like(y)  # Инициализируем решение x
+    x = np.zeros_like(y)
 
-    # Обратный ход метода решения U * x = y
+    # Обратный ход метода решения
     for i in reversed(range(n)):
         sum_backward = sum(U[i][j] * x[j] for j in range(i + 1, n))
-        x[i] = (y[i] - sum_backward) / U[i][i]  # Вычисляем элемент вектора x
+        x[i] = (y[i] - sum_backward) / U[i][i]  
 
     return x
 
@@ -49,7 +49,6 @@ def main():
     ])
     b1 = np.array([0.096, 1.252, 1.024, 1.023, 1.155, 1.937, 1.673])
 
-    # Тест 2
     A2 = np.array([
         [1.231, -0.231, 0.613, -0.314, 0.281, 0.271, -0.301],
         [-0.421, 1.052, 0.128, 0.523, -0.328, 0.813, 0.291],
@@ -61,7 +60,6 @@ def main():
     ])
     b2 = np.array([0.823, 1.231, 0.912, 1.132, 0.926, 1.543, 0.874])
 
-    # Тест 3
     A3 = np.array([
         [0.531, 0.621, -0.211, 0.213, 0.431, 0.112, 0.125],
         [0.331, 1.105, 0.112, -0.209, 0.621, -0.221, 0.211],
@@ -73,7 +71,6 @@ def main():
     ])
     b3 = np.array([1.012, 0.923, 1.131, 0.874, 1.564, 1.213, 0.932])
 
-    # Решаем систему уравнений методом LU-разложения
     x1 = lu(A1, b1)
 
     print("Решение первой системы Ax = b:", x1, end="\n\n")
