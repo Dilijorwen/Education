@@ -44,15 +44,14 @@ def main():
 
     b = np.array([3.2, 4.3, -0.1, 3.5, 5.3, 9.0, 3.7])
 
-    # Решаем систему линейных уравнений Ax = b с помощью QR-разложения
     x = qr(A, b)
 
     print("Решение системы Ax = b:", x, end="\n\n")
 
     # Вычисляем невязку решения
-    residual1 = b - np.dot(A, x)
-    residual_norm1 = np.linalg.norm(residual1, ord=2)
-    print("Невязка решения (норма вектора b - Ax):", residual_norm1, end="\n\n")
+    residual = b - np.dot(A, x)
+    residual_norm = np.linalg.norm(residual, ord=2)
+    print("Невязка решения (норма вектора b - Ax):", residual_norm, end="\n\n")
 
 
 if __name__ == '__main__':
