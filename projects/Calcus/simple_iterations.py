@@ -61,7 +61,7 @@ def main():
         eigenvalue, x = simple_iteration(matrices[i], tol)
         print("Собственные значения матрицы:", np.linalg.eigvals(matrices[i]))
         print("Наибольшее собственное значение по модулю:", eigenvalue)
-        print("Собственный вектор соответствующий этому значению:", x)
+        print("Вектор x:", x)
         # Ax - lmd * x
         print("Проверка вида:", np.linalg.norm(matrices[i] @ x - eigenvalue * x), end="\n\n")
 
