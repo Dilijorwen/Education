@@ -3,12 +3,11 @@ from tabulate import tabulate
 
 def get_inv(A):
     n = len(A)
-    A_inv = np.zeros(A.shape)  # Инициализация пустой матрицы для обратной матрицы
+    A_inv = np.zeros(A.shape)
 
     for i in range(n):
         A_i = A[:i+1, :i+1]
         if i == 0:
-            # Обратная матрица для 1x1 матрицы
             A_inv = np.array([[1 / A_i[0, 0]]], dtype=float)
         else:
             # Разбиваем матрицу на блоки
