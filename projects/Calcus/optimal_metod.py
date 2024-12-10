@@ -3,9 +3,8 @@ from tabulate import tabulate
 
 
 def optimal_elimination(A, b):
-    A = A.astype(float)  # Преобразуем элементы к типу float для точности
+    A = A.astype(float)
     n = len(b)
-    # Создаем расширенную матрицу
     Ab = np.hstack((A, b.reshape(-1, 1)))
     # Массив для отслеживания перестановок столбцов
     column_order = np.arange(n)
@@ -28,7 +27,6 @@ def optimal_elimination(A, b):
         Ab[:, [k, j_max]] = Ab[:, [j_max, k]]
         column_order[[k, j_max]] = column_order[[j_max, k]]
 
-        # Проверка на нулевой главный элемент
         if Ab[k, k] == 0:
             return "Матрица вырожденная!"
 
@@ -45,7 +43,6 @@ def optimal_elimination(A, b):
         print(tabulate(Ab, tablefmt="fancy_grid"))
         print("\n")
 
-    # Решение системы
     x = Ab[:, -1]
 
     # Приведение решения в исходный порядок переменных
@@ -57,7 +54,6 @@ def optimal_elimination(A, b):
     return x_correct_order
 
 
-# Пример использования
 A = np.array([
     [0.411, 0.421, -0.333, 0.313, -0.141, -0.381, 0.245],
     [0.241, 0.705, 0.139, -0.409, 0.321, 0.0625, 0.101],
