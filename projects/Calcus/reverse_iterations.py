@@ -52,7 +52,7 @@ def main():
         eigenvalue, x = reverse_iterations(matrices[i], x0, tol)
         print("Собственные значения матрицы:", np.linalg.eigvals(matrices[i]))
         print("Наименьшее собственное значение по модулю: ", eigenvalue)
-        print("Собственный вектор соответствующий этому значению:", x)
+        print("Вектор x:", x)
         # Ax - lmd * x
         print("Проверка:", np.linalg.norm(matrices[i] @ x - eigenvalue * x), end="\n\n")
 
