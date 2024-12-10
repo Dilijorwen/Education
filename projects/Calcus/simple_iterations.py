@@ -1,5 +1,5 @@
 import numpy as np
-
+from tabulate import tabulate
 
 def simple_iteration(A, tol=1e-5, max_iter=1000):
     x = np.ones(A.shape[0])
@@ -57,7 +57,7 @@ def main():
 
     for i in range(len(matrices)):
         print(f"Матрица №{i+1}")
-        print("A:", matrices[i])
+        print("A:", tabulate(matrices[i]), sep="\n")
         eigenvalue, x = simple_iteration(matrices[i], tol)
         print("Собственные значения матрицы:", np.linalg.eigvals(matrices[i]))
         print("Наибольшее собственное значение по модулю:", eigenvalue)
