@@ -9,9 +9,9 @@
 - Метод релаксации(Successive over-relaxation). Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/SOR.py)
 - Метод гарадиентного спуска [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/gradient.py)
 - Метод вращения с преградами [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/rotation_with_barriers.py)
-- @Метод Ричардсона [[**Python**]]()
-- @Метод простой итерации [[**Python**]]() [[**Отчет**]]()
-- @Метод обратной итерации [[**Python**]]()
+- Метод Ричардсона [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/richardson.py)
+- Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]]()
+- Метод обратной итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/reverse_iterations.py)
 
 ## Дифференциальные уравнения
 - Матрица Гурвица [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
