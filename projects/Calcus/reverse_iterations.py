@@ -1,6 +1,6 @@
 import numpy as np
 from gaus_piv import gauss_piv
-
+from tabulate import tabulate
 
 def reverse_iterations(A, x0, tol=1e-5):
     alpha = np.linalg.norm(x0, ord=np.inf)
@@ -47,7 +47,7 @@ def main():
 
     for i in range(len(matrices)):
         print(f"Матрица №{i + 1}")
-        print("A:", matrices[i])
+        print("A:", tabulate(matrices[i]), sep="\n")
         x0 = np.ones(matrices[i].shape[0])
         eigenvalue, x = reverse_iterations(matrices[i], x0, tol)
         print("Собственные значения матрицы:", np.linalg.eigvals(matrices[i]))
