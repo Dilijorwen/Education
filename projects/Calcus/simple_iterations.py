@@ -58,12 +58,12 @@ def main():
     for i in range(len(matrices)):
         print(f"Матрица №{i+1}")
         print("A:", matrices[i])
-        eigenvalue, eigenvector = simple_iteration(matrices[i], tol)
+        eigenvalue, x = simple_iteration(matrices[i], tol)
         print("Собственные значения матрицы:", np.linalg.eigvals(matrices[i]))
         print("Наибольшее собственное значение по модулю:", eigenvalue)
-        print("Собственный вектор соответствующий этому значению:", eigenvector)
+        print("Собственный вектор соответствующий этому значению:", x)
         # Ax - lmd * x
-        print("Проверка вида:", np.linalg.norm(matrices[i] @ eigenvector - eigenvalue * eigenvector), end="\n\n")
+        print("Проверка вида:", np.linalg.norm(matrices[i] @ x - eigenvalue * x), end="\n\n")
 
 
 if __name__ == '__main__':
