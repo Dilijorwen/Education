@@ -3,7 +3,7 @@ from tabulate import tabulate
 
 def simple_iteration(A, tol=1e-5, max_iter=1000):
     x = np.ones(A.shape[0])
-    x = x / np.linalg.norm(x)
+    x = x / np.linalg.norm(x, ord=2)
     eigenvalue_old = 0
     iter_count = 0
 
