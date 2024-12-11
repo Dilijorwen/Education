@@ -2,7 +2,7 @@ import numpy as np
 from gaus_piv import gauss_piv
 from tabulate import tabulate
 
-def reverse_iterations(A, x0, tol=1e-5):
+def reverse_iterations(A, x0, tol):
     alpha = np.linalg.norm(x0, ord=np.inf)
     x_old = x0.copy()
     while True:
