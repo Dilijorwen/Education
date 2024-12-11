@@ -2,7 +2,7 @@
 ## Вычислительная математика
 
 - Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
-- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]]()
+- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.pdf)
 - Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
 - Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
 - Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
@@ -10,7 +10,7 @@
 - Метод гарадиентного спуска [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/gradient.py)
 - Метод вращения с преградами [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/rotation_with_barriers.py)
 - Метод Ричардсона [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/richardson.py)
-- Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]]()
+- Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple.pdf)
 - Метод обратной итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/reverse_iterations.py)
 
 ## Дифференциальные уравнения
