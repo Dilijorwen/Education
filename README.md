@@ -53,13 +53,13 @@
 # 2 курс 4 семестр ПМИ (Б9122-01.03.02мкт)
 
 ## Курсовая работа по графам
-- Team project [[**Resistance distance**]](https://github.com/Dilijorwen/Resistance-distance) [[**PDF**]](https://github.com/Dilijorwen/Resistance-distance/blob/main/Resistance%20distance/report.pdf)
+- Резистивное расстояние[[**Nuweb**]](https://github.com/Dilijorwen/Resistance-distance) [[**PDF**]](https://github.com/Dilijorwen/Resistance-distance/blob/main/Resistance%20distance/report.pdf)
 
 
 # 2 курс 3 семестр ПМИ (Б9122-01.03.02мкт)
 
 ## Командный курсовой проект на Swift
-- Team project [[**NS**]](https://github.com/Dilijorwen/NS)
+- North-South [[**Swift**]](https://github.com/Dilijorwen/NS)
 
 
 
