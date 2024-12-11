@@ -53,7 +53,7 @@
 # 2 курс 4 семестр ПМИ (Б9122-01.03.02мкт)
 
 ## Курсовая работа по графам
-- Резистивное расстояние[[**Nuweb**]](https://github.com/Dilijorwen/Resistance-distance) [[**PDF**]](https://github.com/Dilijorwen/Resistance-distance/blob/main/Resistance%20distance/report.pdf)
+- Резистивное расстояние [[**Nuweb**]](https://github.com/Dilijorwen/Resistance-distance) [[**PDF**]](https://github.com/Dilijorwen/Resistance-distance/blob/main/Resistance%20distance/report.pdf)
 
 
 # 2 курс 3 семестр ПМИ (Б9122-01.03.02мкт)
