@@ -36,7 +36,7 @@
 - Построение пайплайна одномерной регрессии [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_6.ipynb)
 - Использование разработанного пайплайна для многомерной регрессии [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_7.ipynb)
 - Полиномиальная регрессия [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_8.ipynb)
-- @Лабараторная №9, 10 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_9.ipynb)
+- Лабараторная №9, 10 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/Пелагеев%20Д.И.%20lab_9%2C%2010.ipynb)
 
 #### Datasets:
 - [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
