@@ -41,6 +41,7 @@
 #### Datasets:
 - [[Seeds Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/seeds_dataset.txt)
 - [[Marketing Campaign Dataset]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/marketing_campaign.csv)
+- [[Students Performance]](https://github.com/Dilijorwen/Education/blob/main/projects/ML/StudentsPerformance.csv)
 
 
 ## Методы оптимизации
