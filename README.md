@@ -1,5 +1,6 @@
 # 3 курс 5 семестр ПМИ (Б9122-01.03.02мкт)
 ## Вычислительная математика
+### Лабораторные работы
 
 - Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
 - LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.pdf)
@@ -12,6 +13,9 @@
 - Метод Ричардсона [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/richardson.py)
 - Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple.pdf)
 - Метод обратной итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/reverse_iterations.py)
+
+### Курсовой проект
+- Решение систем линейных алгебраических уравнений с ленточными (трехдиагональными) матрицами [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/Course.pdf)
 
 ## Дифференциальные уравнения
 - Матрица Гурвица [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
