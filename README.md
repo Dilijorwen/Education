@@ -51,8 +51,8 @@
 
 ## Методы оптимизации
 
-- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py) [[**PDF**]]()
-- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py) [[**PDF**]]()
+- Метод золотого сечения и дихотомии [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/dich_gold.py)
+- Градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/gradient_descent.py)
 - Безусловная оптимизация. Метод Ньютона (Метод Ньютона-Рафсона) [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/newton_raphson.py)
 - Покоординатный спуск и градиентный спуск [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/coord_descent.py)
 - Сипмлекс метод [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Optimizations/simplex.py)
