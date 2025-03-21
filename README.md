@@ -1,11 +1,20 @@
 # 3 курс 6 семестр ПМИ (Б9122-01.03.02мкт)
+## Компьютерные методы анализа больших данных
+
+- Построение логистической регрессионной модели и анализ ошибок [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/logit_reg_2.R)
+
+#### Datasets:
+- [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
+
+
 ## Нейронные сети и глубокое обучение
-- Распознавание рукописных цифр [[**Jupyter**]]()
+- Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_1.ipynb)
+- Распознавание рукописных цифр(2) [[**Jupyter**]]()
 
 ## Уравнения математической физики
 
 ## Численные методы дифференциальных уравнений
-- Лабараторная работа №1 [[**Python**]]()
+- Лабараторная работа №1 [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/cauchy_problem.py)
 
 # 3 курс 5 семестр ПМИ (Б9122-01.03.02мкт)
 ## Вычислительная математика
