@@ -11,7 +11,12 @@
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_1.ipynb)
 - Распознавание рукописных цифр(2) [[**Jupyter**]]()
 
+## Облачные технологии
+- Вывод "Hello World" с разных потоков [[*CU*]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
+
+  
 ## Уравнения математической физики
+- Математическая модель кипятильника [[*Python*]]()
 
 ## Численные методы дифференциальных уравнений
 - Лабараторная работа №1 [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/cauchy_problem.py)
