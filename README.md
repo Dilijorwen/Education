@@ -10,7 +10,7 @@
 - Математическая модель кипятильника [[**Python**]]()
 
 ## Нейронные сети и глубокое обучение
-- Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_1.ipynb)
+- Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_1.ipynb)
 - Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_2.ipynb)
 
 ## Облачные технологии
@@ -18,7 +18,7 @@
 
   
 ## Уравнения математической физики
-- Гармоники [[**Python**]]()
+- Гармоники [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Equations%20of%20Mathematical%20Physics/Harmonic.py)
 
 ## Численные методы дифференциальных уравнений
 - Лабараторная работа №1 [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/cauchy_problem.py)
