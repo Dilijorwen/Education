@@ -6,17 +6,19 @@
 #### Datasets:
 - [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
 
+## Математическое и компьютерное моделирвоание
+- Математическая модель кипятильника [[**Python**]]()
 
 ## Нейронные сети и глубокое обучение
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_1.ipynb)
-- Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_2.ipynb)
+- Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_2.ipynb)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
 
   
 ## Уравнения математической физики
-- Математическая модель кипятильника [[**Python**]]()
+- Гармоники [[**Python**]]()
 
 ## Численные методы дифференциальных уравнений
 - Лабараторная работа №1 [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/cauchy_problem.py)
