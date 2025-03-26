@@ -7,7 +7,7 @@
 - [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
 
 ## Математическое и компьютерное моделирвоание
-- Математическая модель кипятильника [[**Python**]]()
+- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py)
 
 ## Нейронные сети и глубокое обучение
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_1.ipynb)
@@ -15,6 +15,7 @@
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
+- Параллельное сложение двух массивов на GPU [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/mas_operation.cu)
 
   
 ## Уравнения математической физики
