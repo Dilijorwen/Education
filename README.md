@@ -9,7 +9,7 @@
 
 ## Нейронные сети и глубокое обучение
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_1.ipynb)
-- Распознавание рукописных цифр(2) [[**Jupyter**]]()
+- Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/DIgits_2.ipynb)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
