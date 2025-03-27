@@ -1,5 +1,3 @@
-
-
 *.pdf      linguist-language=PDF
 *.PDF      linguist-language=PDF
 *.cu    linguist-language=C++
