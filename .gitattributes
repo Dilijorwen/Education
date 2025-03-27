@@ -2,5 +2,5 @@
 *.PDF      linguist-language=PDF
 *.cu       linguist-language=Cuda
 *.py       linguist-language=Python
-*.ipynb    linguist-language=JupyterNotebook
+*.ipynb    linguist-language="Jupyter Notebook"
 *.R  	     linguist-language=R
