@@ -1,5 +1,5 @@
-*.pdf      linguist-language=PDF
-*.PDF      linguist-language=PDF
+*.pdf      linguist-language=pdf
+*.PDF      linguist-language=pdf
 *.cu       linguist-language=Cuda
 *.py       linguist-language=Python
 
