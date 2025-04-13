@@ -88,7 +88,7 @@ class HeaterInCup:
 def simulate_heater(power, heater_mass, heater_capacity, water_volume,
                     initial_temp, heat_transfer_coeff, radiation_coeff, surface_area,
                     water_density, water_capacity, vaporization_heat, ambient_temp,
-                    dt=1, t_max=300600):
+                    dt=1, t_max=3600):
     """
     Функция симуляции:
       - dt: шаг по времени (сек)
@@ -113,14 +113,14 @@ def simulate_heater(power, heater_mass, heater_capacity, water_volume,
     return times, temps, volumes
 
 # Параметры системы
-power = 500                   # Мощность (Вт)
-heater_mass = 0.1              # Масса нагревателя (кг)
-heater_capacity = 500          # Теплоёмкость нагревателя (Дж/(кг·K))
-water_volume = 0.7 / 1000      # Объём воды 500 мл (перевод в м³)
+power = 2500                   # Мощность (Вт)
+heater_mass = 0.7              # Масса нагревателя (кг)
+heater_capacity = 5000          # Теплоёмкость нагревателя (Дж/(кг·K))
+water_volume = 0 /1000      # Объём воды 500 мл (перевод в м³)
 initial_temp = 298             # Начальная температура 25°C (в Кельвинах)
 heat_transfer_coeff = 10       # Коэффициент конвекции (Вт/(м²·K))
 radiation_coeff = 5.67e-8      # Коэффициент излучения (Постоянная Стефана-Больцмана для идеального черного тела)
-surface_area = 0.01            # Площадь поверхности нагревателя (м²)
+surface_area = 0.05            # Площадь поверхности нагревателя (м²)
 water_density = 1000           # Плотность воды (кг/м³)
 water_capacity = 4180          # Теплоёмкость воды (Дж/(кг·K))
 vaporization_heat = 2.26e6     # Удельная теплота парообразования воды (Дж/кг)
@@ -130,7 +130,7 @@ ambient_temp = 298             # Температура окружающей с�
 times, temps, volumes = simulate_heater(power, heater_mass, heater_capacity, water_volume,
                                         initial_temp, heat_transfer_coeff, radiation_coeff, surface_area,
                                         water_density, water_capacity, vaporization_heat, ambient_temp,
-                                        dt=1, t_max=30060)
+                                        dt=1, t_max=3600)
 
 # Визуализация результатов
 plt.figure(figsize=(14, 6))
@@ -141,13 +141,17 @@ plt.axhline(100, color='orange', linestyle='--', label="Кипение (100°C)"
 plt.axhline(500, color='red', linestyle='--', label="Сгорание (500°C)")
 plt.xlabel("Время (с)")
 plt.ylabel("Температура (°C)")
+plt.title("Изменение температуры нагревателя")
 plt.legend()
 plt.grid()
+
+
 
 plt.subplot(1, 2, 2)
 plt.plot(times, np.array(volumes) * 1000, label="Объём воды")
 plt.xlabel("Время (с)")
 plt.ylabel("Объём воды (мл)")
+plt.title("Изменение объёма воды")
 plt.legend()
 plt.grid()
 
