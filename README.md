@@ -7,11 +7,14 @@
 - [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
 
 ## Математическое и компьютерное моделирвоание
-- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py)
+- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py)[[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/1.pdf)
+- Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py)[[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/2.pdf)
 
 ## Нейронные сети и глубокое обучение
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_1.ipynb)
 - Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_2.ipynb)
+- Исследование оптимизации обучения [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Fashion.ipynb) *******
+- RBF-сети [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBF.ipynb)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
@@ -25,6 +28,7 @@
 - Задача Коши для обыкновенного дифференциального уравнения [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/cauchy_problem.py)
 - Решение конечно-разностным методом краевой задачи для обыкновенного дифференцального уравнения второго порядка[[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab2.py)
 - Решение методом сеток краевой задачи для уравнения параболического типа [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab3.py)
+- Решение гиперболических уравнений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab4.py)
 
 # 3 курс 5 семестр ПМИ (Б9122-01.03.02мкт)
 ## Вычислительная математика
