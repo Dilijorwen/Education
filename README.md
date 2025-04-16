@@ -7,8 +7,8 @@
 - [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
 
 ## Математическое и компьютерное моделирвоание
-- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py)[[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/1.pdf)
-- Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py)[[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/2.pdf)
+- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/1.pdf)
+- Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/2.pdf)
 
 ## Нейронные сети и глубокое обучение
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_1.ipynb)
