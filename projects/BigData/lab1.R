@@ -1,7 +1,7 @@
 library(ggplot2)
 
 # Ставим рабочую дирректорию для R
-setwd("/Users/daniil/Desktop/Обучение/BigData")
+setwd("/Users/daniil/Desktop/Обучение/BigData/datasets")
 
 # Загрузка данных
 diamond <- read.csv(file = "rand5.csv", header = TRUE, sep = ",")

@@ -4,7 +4,7 @@
 - Построение логистической регрессионной модели и анализ ошибок [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/logit_reg_2.R)
 
 #### Datasets:
-- [[titanic]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/titanic3.csv)
+- [[All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
 
 ## Математическое и компьютерное моделирвоание
 - Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/1.pdf)
@@ -23,8 +23,7 @@
 - Задание №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/HOME_SBER_№1.ipynb)
 
 #### Datasets:
-- [[House Prices]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/house_prices.csv)
-- [[CSGO Games]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/csgo_games.csv)
+- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/datasets)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
@@ -70,7 +69,7 @@
 - Сравнительный анализ логистической регрессии и метода опорных векторов для задачи бинарной классификации [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab3.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_task3.pdf)
 
 #### Datasets:
-- [[Mini Diamonds]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/rand5.csv)
+- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/datasets
 
 
 ## Кластерный и факторный анализ

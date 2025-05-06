@@ -7,7 +7,7 @@ library(VIM)
 library(pROC)
 
 # Установка рабочей директории (раскомментируйте, если требуется)
-# setwd("/Users/daniil/Desktop/Обучение/BigData")
+setwd("/Users/daniil/Desktop/Обучение/BigData/datasets")
 
 # ================================
 # 2. Загрузка и первоначальный осмотр данных

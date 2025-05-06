@@ -4,7 +4,7 @@ library(caret)
 library(kernlab)
 
 # 1. Прочитать файл
-setwd("/Users/daniil/Desktop/Обучение/BigData")
+setwd("/Users/daniil/Desktop/Обучение/BigData/datasets")
 dd <- read.table(file='flsr_moscow.txt', header=TRUE)
 
 # 2. Очистка данных: удаление строк с пропущенными значениями
