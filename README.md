@@ -7,9 +7,9 @@
 - [[All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
 
 ## Математическое и компьютерное моделирвоание
-- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/1.pdf)
-- Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/2.pdf)
-- Математическая модель маятника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/pendulum.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/3.pdf)
+- Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/1.pdf)
+- Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/2.pdf)
+- Математическая модель маятника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/pendulum.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/3.pdf)
 
 ## Нейронные сети и глубокое обучение
 ### DVFU
@@ -44,7 +44,7 @@
 ### Лабораторные работы
 
 - Метод оптимального исключения с выбором главного элемента [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/optimal_metod.py)
-- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.pdf)
+- LU разложение матрицы [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/LU.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/PDF/LU.pdf)
 - Метод квадратного корня [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/square_root_method.py)
 - Вычисление обратной матрицы методом окаймления [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/bordering_method.py)
 - Метод отражений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/QR.py)
@@ -52,11 +52,11 @@
 - Метод гарадиентного спуска [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/gradient.py)
 - Метод вращения с преградами [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/rotation_with_barriers.py)
 - Метод Ричардсона [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/richardson.py)
-- Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple.pdf)
+- Метод простой итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/simple_iterations.py) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/PDF/simple.pdf)
 - Метод обратной итерации [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/reverse_iterations.py)
 
 ### Курсовой проект
-- Решение систем линейных алгебраических уравнений с ленточными (трехдиагональными) матрицами [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/Course.pdf)
+- Решение систем линейных алгебраических уравнений с ленточными (трехдиагональными) матрицами [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Calcus/PDF/Course.pdf)
 
 ## Дифференциальные уравнения
 - Матрица Гурвица [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/hurwitz_matrix.py)
