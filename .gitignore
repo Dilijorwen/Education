@@ -1037,3 +1037,12 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+/projects/Course/datasets/
+/projects/Course/processed/
+/projects/ML/datasets/credits.csv
+/projects/ML/datasets/house_data.csv
+/projects/ML/datasets/links.csv
+/projects/ML/datasets/Popular_Spotify_Songs.csv
+/projects/ML/datasets/movies_metadata.csv
+/projects/ML/datasets/ratings.csv
+/projects/ML/datasets/traintest_data.csv
