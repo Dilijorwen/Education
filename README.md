@@ -23,8 +23,8 @@
 
 #### Datasets:
 - [[House Prices]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/house_prices.csv)
-- [[Rating Films]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/rating.csv)
-- [[Movies Campaign]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/movies_campaign.csv)
+- [[Rating Films]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/ratings.csv)
+- [[Movies Metadata]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/movies_metadata.csv)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
