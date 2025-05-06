@@ -15,10 +15,16 @@
 - Распознавание рукописных цифр(1) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_1.ipynb)
 - Распознавание рукописных цифр(2) [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Digits_2.ipynb)
 - Исследование оптимизации обучения [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Fashion.ipynb) *******
-- RBF-сети [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBF.ipynb) *******
+- RBF [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBF.ipynb) *******
+- RBM [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
 
 ### SBER
 - Задание №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/HOME_SBER_№1.ipynb)
+
+#### Datasets:
+- [[House Prices]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/house_prices.csv)
+- [[Rating Films]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/rating.csv)
+- [[Movies Campaign]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/movies_campaign.csv)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
