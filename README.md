@@ -4,7 +4,7 @@
 - Построение логистической регрессионной модели и анализ ошибок [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/logit_reg_2.R)
 
 #### Datasets:
-- [[All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
+- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
 
 ## Математическое и компьютерное моделирвоание
 - Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/1.pdf)
