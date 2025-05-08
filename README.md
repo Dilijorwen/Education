@@ -38,6 +38,7 @@
 - Решение конечно-разностным методом краевой задачи для обыкновенного дифференцального уравнения второго порядка[[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab2.py)
 - Решение методом сеток краевой задачи для уравнения параболического типа [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab3.py)
 - Решение гиперболических уравнений [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab4.py)
+- B-сплайн [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Differential/lab7.py)
 
 # 3 курс 5 семестр ПМИ (Б9122-01.03.02мкт)
 ## Вычислительная математика
