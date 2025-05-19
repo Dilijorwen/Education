@@ -6,6 +6,10 @@
 #### Datasets:
 - [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
 
+## Курсовая работа
+
+- Применение кластерного анализа для группировки пациентов на основе схожих генетических мутаций, влияющих на развитие аденокарциномы лёгких [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Course/Course.ipynb) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Course/Course_Clustering_final.pdf)
+
 ## Математическое и компьютерное моделирвоание
 - Математическая модель кипятильника [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/heatter.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/1.pdf)
 - Модель Лотки — Вольтерры [[**Python**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/Lotki-Voltera.py) [[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/Mathematical%20and%20computer%20modeling/PDF/2.pdf)
