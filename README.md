@@ -24,7 +24,11 @@
 - RBM [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
 
 ### SBER
-- Задание №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/HOME_SBER_№1.ipynb)
+- Задание №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№1.ipynb)
+- Задание №2.1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№2(LR).ipynb)
+- Задание №2.2 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№2(CLASS).ipynb)
+- Задание №3 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№3.ipynb)
+- Задание №4 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№4.ipynb)
 
 #### Datasets:
 - [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/datasets)
