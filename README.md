@@ -31,7 +31,7 @@
 - Задание №4 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№4.ipynb)
 
 #### Datasets:
-- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/datasets)
+- [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/datasets)
 
 ## Облачные технологии
 - Вывод "Hello World" с разных потоков [[**CU**]](https://github.com/Dilijorwen/Education/blob/main/projects/Clouds/cluster_hello.cu)
@@ -78,7 +78,7 @@
 - Сравнительный анализ логистической регрессии и метода опорных векторов для задачи бинарной классификации [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab3.R) [[**Отчет**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelageevDI_task3.pdf)
 
 #### Datasets:
-- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/datasets
+- [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/datasets)
 
 
 ## Кластерный и факторный анализ
