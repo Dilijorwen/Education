@@ -4,7 +4,7 @@
 - Построение логистической регрессионной модели и анализ ошибок [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/logit_reg_2.R)
 
 #### Datasets:
-- [[All Datasets]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
+- [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
 
 ## Курсовая работа
 

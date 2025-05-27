@@ -79,7 +79,7 @@ def runge_kutta_4(f, x0, y0, T, dt, params):
 
 
 # Начальные условия и параметры
-initial_conditions = [(6, 1), (5, 3), (2, 1), (8, 2)]
+initial_conditions = [(6, 1), (5, 3), (2, 1), (4, 4)]
 T = 10.0  # Время моделирования
 n = 1000  # Количество шагов
 dt = T / n  # Шаг интегрирования
@@ -89,24 +89,17 @@ sns.set_theme(style="darkgrid")
 plt.rcParams.update({'font.size': 12})
 
 # График динамики популяций
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6), sharex=True)
+plt.figure(figsize=(8, 6))
 
 for x0, y0 in initial_conditions:
     t_values, x_values, y_values = runge_kutta_4(lotka_volterra, x0, y0, T, dt, params)
-    ax1.plot(t_values, x_values, label=f'x0={x0}, y0={y0}', linewidth=2)
-    ax1.plot(t_values, y_values, label=f'x0={x0}, y0={y0}', linewidth=2, linestyle='--')
+    plt.plot(t_values, x_values, label=f'x0={x0}, y0={y0}', linewidth=2)
+    plt.plot(t_values, y_values, label=f'x0={x0}, y0={y0}', linewidth=2, linestyle='--')
 
-ax1.set_xlabel("Время")
-ax1.set_ylabel("Популяция жертв")
-ax1.set_title("Динамика популяции жертв")
-ax1.legend()
-
-# ax2.set_xlabel("Время")
-# ax2.set_ylabel("Популяция хищников")
-# ax2.set_title("Динамика популяции хищников")
-# ax2.legend()
-
-plt.tight_layout()
+plt.xlabel("Время")
+plt.ylabel("Популяция жертв")
+plt.title("Динамика популяции жертв и жертв")
+plt.legend()
 plt.show()
 
 # Фазовые портреты
