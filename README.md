@@ -2,6 +2,7 @@
 ## Компьютерные методы анализа больших данных
 
 - Построение логистической регрессионной модели и анализ ошибок [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/logit_reg_2.R)
+- Очистка и сравнительный анализ интернет-данных [[**R**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/lab2_2.R)[[**PDF**]](https://github.com/Dilijorwen/Education/blob/main/projects/BigData/PelaggevDI_lab2_2.pdf)
 
 #### Datasets:
 - [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
