@@ -1,16 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-"""Математический маятник: линейная vs нелинейная модель
----------------------------------------------------------
-Интегрирование методом **симплектического Эйлера** (Euler-Cromer).
-
-* Нелинейная:   θ'' + (g/l)·sinθ + (b/m)·θ' = F·sin(ω_f t)
-* Линейная:     θ'' + (g/l)·θ   + (b/m)·θ' = F·sin(ω_f t)
-
-Обе модели решаются одной и той же энергосохраняющей схемой;
-результаты выводятся на общих графиках.
-"""
 
 g = 9.81
 l = 100.0
@@ -33,7 +23,7 @@ def omega_dot_lin(theta: float, omega: float, t: float) -> float:
 
 
 
-def symplectic_euler(t_start: float, t_end: float, dt: float, y0, omega_dot):
+def euler(t_start: float, t_end: float, dt: float, y0, omega_dot):
     n_steps = int(np.ceil((t_end - t_start) / dt)) + 1
     t_values = np.linspace(t_start, t_end, n_steps)
 
@@ -43,8 +33,12 @@ def symplectic_euler(t_start: float, t_end: float, dt: float, y0, omega_dot):
 
     for i in range(1, n_steps):
         t = t_values[i - 1]
-        omega[i] = omega[i - 1] + dt * omega_dot(theta[i - 1], omega[i - 1], t)
-        theta[i] = theta[i - 1] + dt * omega[i]
+
+        dtheta_dt = omega[i - 1]
+        domega_dt = omega_dot(theta[i - 1], omega[i - 1], t)
+
+        theta[i] = theta[i - 1] + dt * dtheta_dt
+        omega[i] = omega[i - 1] + dt * domega_dt
 
     return t_values, np.vstack([theta, omega]).T
 
@@ -86,8 +80,8 @@ def draw(t_nl, sol_nl, t_lin, sol_lin):
 if __name__ == "__main__":
     t0, t_end, dt = 0.0, 60.0, 0.025
 
-    t_nl, sol_nl = symplectic_euler(t0, t_end, dt, [theta0, omega0], omega_dot_nl)
+    t_nl, sol_nl = euler(t0, t_end, dt, [theta0, omega0], omega_dot_nl)
 
-    t_lin, sol_lin = symplectic_euler(t0, t_end, dt, [theta0, omega0], omega_dot_lin)
+    t_lin, sol_lin = euler(t0, t_end, dt, [theta0, omega0], omega_dot_lin)
 
     draw(t_nl, sol_nl, t_lin, sol_lin)
