@@ -1049,3 +1049,5 @@ fabric.properties
 /projects/ML/datasets/movies_metadata.csv
 /projects/ML/datasets/ratings.csv
 /projects/ML/datasets/traintest_data.csv
+/projects/ML/datasets/application_record.csv
+/projects/ML/datasets/credit_record.csv
