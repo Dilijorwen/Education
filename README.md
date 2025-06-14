@@ -23,6 +23,10 @@
 - Исследование оптимизации обучения [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Fashion.ipynb)
 - RBF [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBF.ipynb)
 - RBM [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
+- RNN [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
+- CNN [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
+- CGAN [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
+- CEM [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/RBM.ipynb)
 
 ### SBER
 - Задание №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/SBER/HOME_SBER_№1.ipynb)
