@@ -1,3 +1,13 @@
+# 4 курс 7 семестр ПМИ (Б9122-01.03.02мкт)
+
+## Нейронные сети и глубокое обучение
+- Лабораторная работа 1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_1.ipynb)
+
+ 
+
+#### Datasets:
+- [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
+
 # 3 курс 6 семестр ПМИ (Б9122-01.03.02мкт)
 ## Компьютерные методы анализа больших данных
 
