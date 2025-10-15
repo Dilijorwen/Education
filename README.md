@@ -1,9 +1,20 @@
 # 4 курс 7 семестр ПМИ (Б9122-01.03.02мкт)
 
-## Нейронные сети и глубокое обучение
-- Лабораторная работа 1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_1.ipynb)
+## Введение в ИИ
 
- 
+### Лекции
+
+- Практика №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Practice_1.ipynb)
+- Метрки [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Metric_classification.ipynb)
+- Деревья решений [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Decision_tree.ipynb)
+
+### Практика
+
+- Задача регрессии/классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/lab_1.ipynb)
+
+
+## Нейронные сети и глубокое обучение
+- Лабораторная работа №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_1.ipynb)
 
 #### Datasets:
 - [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
