@@ -116,7 +116,7 @@ def simulate_heater(power, heater_mass, heater_capacity, water_volume,
 power = 2500                   # Мощность (Вт)
 heater_mass = 0.7              # Масса нагревателя (кг)
 heater_capacity = 5000          # Теплоёмкость нагревателя (Дж/(кг·K))
-water_volume = 0 /1000      # Объём воды 500 мл (перевод в м³)
+water_volume = 2 /1000      # Объём воды 500 мл (перевод в м³)
 initial_temp = 298             # Начальная температура 25°C (в Кельвинах)
 heat_transfer_coeff = 10       # Коэффициент конвекции (Вт/(м²·K))
 radiation_coeff = 5.67e-8      # Коэффициент излучения (Постоянная Стефана-Больцмана для идеального черного тела)
