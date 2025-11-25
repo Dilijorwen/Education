@@ -12,9 +12,11 @@
 
 - Задача регрессии/классификации [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/lab_1.ipynb)
 
-
 ## Нейронные сети и глубокое обучение
 - Лабораторная работа №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_1.ipynb)
+- Лабораторная работа №2 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_2.ipynb)
+- - Лабораторная работа №3 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_3.ipynb)
+- - Лабораторная работа №4 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_4.ipynb)
 
 #### Datasets:
 - [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
