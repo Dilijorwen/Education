@@ -10,7 +10,7 @@
 - Деревья решений [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Decision_tree.ipynb)
 - Кластеризация [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Кластеризация.html)
 - Ансамблирование моделей [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/ensembling.html)
-- Градиентный спуск [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Градиентный_спуск_алгоритмы_оптимизации_градиетного_спуска.html)
+- Градиентный спуск [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Градиентный_спуск_алгоритмы_оптимизации_градиетного_спуска.html)
 
 ### Практика
 
