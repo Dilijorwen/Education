@@ -18,6 +18,7 @@
 - Лабораторная работа №3 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_3.ipynb)
 - Лабораторная работа №4 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_4.ipynb)
 - Лабораторная работа №5 [[**File**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_5)
+- Лабораторная работа №4 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_6.ipynb)
 
 #### Datasets:
 - [All Datasets](https://github.com/Dilijorwen/Education/blob/main/projects/BigData)
