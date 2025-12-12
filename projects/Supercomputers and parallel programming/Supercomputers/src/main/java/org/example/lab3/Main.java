@@ -1,4 +1,4 @@
-package org.example.lab2;
+package org.example.lab3;
 
 import java.util.*;
 import java.util.concurrent.*;
@@ -33,6 +33,10 @@ public class Main {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         Future<List<Integer>> future = executor.submit(task);
 
+        while (!future.isDone()) {
+            System.out.println("The method is still running...");
+            Thread.sleep(500);
+        }
 
         List<Integer> subset = future.get();
         System.out.println("Subset of elements: " + subset);
