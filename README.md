@@ -20,6 +20,7 @@
 ## Суперкомпьютеры и параллельное программирование
 - Применение делегатов [[**Java**]](https://github.com/Dilijorwen/Education/blob/main/projects/Supercomputers%20and%20parallel%20programming/Supercomputers/src/main/java/org/example/lab1)
 - Применение асинхронных делегатов для реализации многопоточности [[**Java**]](https://github.com/Dilijorwen/Education/blob/main/projects/Supercomputers%20and%20parallel%20programming/Supercomputers/src/main/java/org/example/lab2)
+- Ожидание завершения асинхронного метода с использованием тайм-аута [[**Java**]](https://github.com/Dilijorwen/Education/blob/main/projects/Supercomputers%20and%20parallel%20programming/Supercomputers/src/main/java/org/example/lab3)
 
 ## Нейронные сети и глубокое обучение
 - Лабораторная работа №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/lab_1.ipynb)
