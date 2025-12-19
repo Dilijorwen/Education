@@ -5,7 +5,7 @@
 ### Лекции
 
 - Практика №1 [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Practice_1.ipynb)
-- Метрки [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Metric_classification.ipynb)
+- Метрики [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Metric_classification.ipynb)
 - Регрессия [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/regression.html)
 - Деревья решений [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Decision_tree.ipynb)
 - Кластеризация [[**HTML**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/Кластеризация.html)
