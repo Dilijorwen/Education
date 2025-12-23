@@ -17,7 +17,7 @@ public class SumThread extends Thread {
     @Override
     public void run() {
         System.out.println(
-                "Thread" + getName() +
+                getName() +
                         " began work. Range: [" + start + ", " + end + ")"
         );
 
@@ -26,7 +26,7 @@ public class SumThread extends Thread {
             partialSum += array[i];
 
             System.out.println(
-                    "Thread " + getName() +
+                    getName() +
                             " processes an element " + i +
                             ", current value of the sum = " + partialSum
             );
@@ -39,7 +39,7 @@ public class SumThread extends Thread {
         }
 
         System.out.println(
-                "Thread " + getName() +
+                getName() +
                         " completed the work. Partial amount = " + partialSum
         );
     }

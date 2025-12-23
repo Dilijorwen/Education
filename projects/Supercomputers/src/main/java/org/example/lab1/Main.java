@@ -6,7 +6,6 @@ import java.util.function.*;
 public class Main {
     public static void main(String[] args) {
 
-        // Несколько методов, соответствующих сигнатуре Action<List<Integer>>
         Consumer<List<Integer>> printList = list -> {
             System.out.println("Список: " + list);
         };
@@ -21,16 +20,14 @@ public class Main {
             System.out.println();
         };
 
-        // Реализуем FuncActionBool: принимает Action и возвращает bool
         FuncActionBool func = action -> {
             List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5);
             action.accept(nums);
-            return true; // любое логическое условие
+            return true;
         };
 
-        // Вызов нескольких методов через делегат
-        System.out.println("Вызов printList: " + func.apply(printList));
-        System.out.println("Вызов printSum: " + func.apply(printSum));
-        System.out.println("Вызов printEven: " + func.apply(printEven));
+        System.out.println("printList: " + func.apply(printList));
+        System.out.println("printSum: " + func.apply(printSum));
+        System.out.println("printEven: " + func.apply(printEven));
     }
 }
