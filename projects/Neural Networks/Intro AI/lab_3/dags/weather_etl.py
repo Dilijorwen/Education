@@ -8,7 +8,7 @@ import requests
 from geopy.geocoders import Nominatim
 from airflow import DAG
 from airflow.exceptions import AirflowSkipException
-from airflow.models import Variable
+from airflow.sdk import Variable
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.providers.standard.operators.trigger_dagrun import TriggerDagRunOperator
