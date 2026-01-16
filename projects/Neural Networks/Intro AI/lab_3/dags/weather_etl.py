@@ -108,11 +108,6 @@ def extract_weather_data(**context):
     logging.info("Updated pointer: %s", LATEST_META_PATH)
 
 def transform_weather_data(**context):
-    """
-    Читает LATEST_META_PATH, затем raw.json.
-    Проверяет поля и пишет transformed.json.
-    Обновляет LATEST_META_PATH, добавляя transformed_file.
-    """
     if not os.path.exists(LATEST_META_PATH):
         raise AirflowSkipException(f"Pointer file not found: {LATEST_META_PATH}")
 
@@ -175,9 +170,6 @@ def transform_weather_data(**context):
 
 
 def load_weather_data(**context):
-    """
-    Читает LATEST_META_PATH, затем transformed.json, и грузит в БД.
-    """
     if not os.path.exists(LATEST_META_PATH):
         raise AirflowSkipException(f"Pointer file not found: {LATEST_META_PATH}")
 
@@ -248,8 +240,7 @@ default_args = {
 with DAG(
     dag_id="weather_dag",
     default_args=default_args,
-    description="ETL (no XCom payload): file pointer latest_meta.json controls handoff",
-    schedule="* * * * *",
+    schedule="*/10 * * * *",
     start_date=datetime(2025, 12, 30),
     max_active_runs=1,
     catchup=False,
@@ -270,6 +261,11 @@ with DAG(
         task_id="load_weather",
         python_callable=load_weather_data,
     )
+    trigger_inference = TriggerDagRunOperator(
+        task_id="trigger_inference",
+        trigger_dag_id="weather_inference_dag",
+        wait_for_completion=False,
+    )
 
 
-    extract_weather >> transform_weather >> load_weather
+    extract_weather >> transform_weather >> load_weather >> trigger_inference
