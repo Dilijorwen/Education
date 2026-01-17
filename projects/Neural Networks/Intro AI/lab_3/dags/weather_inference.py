@@ -106,7 +106,7 @@ def run_inference(**context):
     logging.info("Inference file saved: %s", forecast_path)
 
 
-def persist_inference(**context):
+def save_inference(**context):
     if not os.path.exists(LATEST_META_PATH):
         raise AirflowSkipException(f"Pointer file not found: {LATEST_META_PATH}")
 
@@ -157,7 +157,8 @@ def persist_inference(**context):
                 %(condition)s,
                 %(severity)s,
                 %(tags)s::jsonb,
-                %(payload)s::jsonb) ON CONFLICT (city, observed_time, rule_version) DO NOTHING;
+                %(payload)s::jsonb)
+        ON CONFLICT (city, observed_time, rule_version) DO NOTHING;
         """,
         parameters={
             "city": city,
@@ -170,85 +171,14 @@ def persist_inference(**context):
         },
     )
 
-    logging.info("Inference persisted for city=%s observed_time=%s", city, observed_time_raw)
-
-
-def assess_inference(**context):
-    if not os.path.exists(LATEST_META_PATH):
-        raise AirflowSkipException(f"Pointer file not found: {LATEST_META_PATH}")
-
-    with open(LATEST_META_PATH, "r", encoding="utf-8") as f:
-        meta = json.load(f)
-
-    city = meta.get("city")
-    observed_time_raw = meta.get("observed_time")
-    rule_version = meta.get("rule_version", "if_v1")
-
-    if not city or not observed_time_raw:
-        raise AirflowSkipException("Meta missing city/observed_time")
-
-    try:
-        observed_time = datetime.fromisoformat(observed_time_raw)
-    except ValueError:
-        raise AirflowSkipException(f"Invalid observed_time: {observed_time_raw}")
-
-    hook = PostgresHook(postgres_conn_id=POSTGRES_CONN_ID)
-
-    row = hook.get_first(
-        """
-        SELECT condition, severity, tags
-        FROM weather_inference
-        WHERE city = %(city)s
-          AND observed_time = %(observed_time)s
-          AND rule_version = %(rule_version)s LIMIT 1;
-        """,
-        parameters={
-            "city": city,
-            "observed_time": observed_time,
-            "rule_version": rule_version,
-        },
+    logging.info(
+        "Inference saved for city=%s observed_time=%s condition=%s severity=%s",
+        city,
+        observed_time_raw,
+        condition,
+        severity,
     )
 
-    if row is None:
-        raise AirflowSkipException("No inference row found to evaluate")
-
-    condition, severity, tags_jsonb = row
-
-    ok = condition in {"normal", "cold", "very_cold", "hot", "windy", "precipitation"} and int(severity) in {0, 1, 2}
-
-    hook.run(
-        """
-        INSERT INTO weather_inference_metrics (city,
-                                               observed_time,
-                                               rule_version,
-                                               calculated_at,
-                                               ok,
-                                               condition,
-                                               severity,
-                                               tags)
-        VALUES (%(city)s,
-                %(observed_time)s,
-                %(rule_version)s,
-                %(calculated_at)s,
-                %(ok)s,
-                %(condition)s,
-                %(severity)s,
-                %(tags)s::jsonb) ON CONFLICT (city, observed_time, rule_version) DO NOTHING;
-        """,
-        parameters={
-            "city": city,
-            "observed_time": observed_time,
-            "rule_version": rule_version,
-            "calculated_at": datetime.utcnow(),
-            "ok": bool(ok),
-            "condition": condition,
-            "severity": int(severity),
-            "tags": json.dumps(tags_jsonb if isinstance(tags_jsonb, list) else [], ensure_ascii=False),
-        },
-    )
-
-    logging.info("Inference assessed for city=%s observed_time=%s, condition=%s ok=%s", city, observed_time_raw,
-                 condition, ok)
 
 
 with DAG(
@@ -263,14 +193,9 @@ with DAG(
         python_callable=run_inference,
     )
 
-    persist_inference_task = PythonOperator(
-        task_id="persist_inference",
-        python_callable=persist_inference,
+    save_task = PythonOperator(
+        task_id="save",
+        python_callable=save_inference,
     )
 
-    assess_inference_task = PythonOperator(
-        task_id="assess_inference",
-        python_callable=assess_inference,
-    )
-
-    run_inference_task >> persist_inference_task >> assess_inference_task
+    run_inference_task >> save_task

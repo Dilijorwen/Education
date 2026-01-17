@@ -1,6 +1,6 @@
 {
   "uid": "weather-main",
-  "title": "Weather: temperature_2m & wind_speed_10m",
+  "title": "Weather",
   "timezone": "browser",
   "schemaVersion": 39,
   "version": 1,
@@ -39,5 +39,5 @@
       ]
     }
   ],
-  "time": { "from": "now-10y", "to": "now" }
+  "time": { "from": "now-30d", "to": "now" }
 }
