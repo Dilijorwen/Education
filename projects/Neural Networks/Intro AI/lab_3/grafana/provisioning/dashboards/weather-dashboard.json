@@ -1,0 +1,43 @@
+{
+  "uid": "weather-main",
+  "title": "Weather: temperature_2m & wind_speed_10m",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "type": "timeseries",
+      "title": "temperature_2m",
+      "gridPos": { "x": 0, "y": 0, "w": 24, "h": 10 },
+      "datasource": { "type": "postgres", "uid": "PostgresWeather" },
+      "targets": [
+        {
+          "refId": "A",
+          "format": "time_series",
+          "rawSql": "SELECT observed_time AS \"time\", temperature_2m AS \"value\"\nFROM weather_current\nWHERE observed_time IS NOT NULL\nORDER BY observed_time",
+          "timeColumn": "time",
+          "metricColumn": "none"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "wind_speed_10m",
+      "gridPos": { "x": 0, "y": 10, "w": 24, "h": 10 },
+      "datasource": { "type": "postgres", "uid": "PostgresWeather" },
+      "targets": [
+        {
+          "refId": "A",
+          "format": "time_series",
+          "rawSql": "SELECT observed_time AS \"time\", wind_speed_10m AS \"value\"\nFROM weather_current\nWHERE observed_time IS NOT NULL\nORDER BY observed_time",
+          "timeColumn": "time",
+          "metricColumn": "none"
+        }
+      ]
+    }
+  ],
+  "time": { "from": "now-10y", "to": "now" }
+}

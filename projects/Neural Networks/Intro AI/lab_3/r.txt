@@ -1,0 +1,4 @@
+apache-airflow==3.1.5
+requests==2.32.5
+numpy==2.3.5
+geopy==2.4.1
