@@ -18,6 +18,9 @@
 - Кластеризация [[**Jupyter**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/lab_2.ipynb)
 - Airflow [[**Code**]](https://github.com/Dilijorwen/Education/blob/main/projects/Neural%20Networks/Intro%20AI/lab_3)
 
+## Операционные системы
+- Создание скриптов под разные OC [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/hello_world_cpp)
+
 ## Суперкомпьютеры и параллельное программирование
 - Применение делегатов [[**Java**]](https://github.com/Dilijorwen/Education/blob/main/projects/Supercomputers%20and%20parallel%20programming/Supercomputers/src/main/java/org/example/lab1)
 - Применение асинхронных делегатов для реализации многопоточности [[**Java**]](https://github.com/Dilijorwen/Education/blob/main/projects/Supercomputers%20and%20parallel%20programming/Supercomputers/src/main/java/org/example/lab2)
