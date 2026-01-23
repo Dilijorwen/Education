@@ -1,0 +1,10 @@
+WIN
+scripts\build.cmd
+build\hello_world.exe
+
+
+DEB
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+cmake --build .
