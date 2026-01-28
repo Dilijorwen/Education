@@ -15,8 +15,6 @@
 ### Linux/macOS
 
 ```bash
-cd /path/to/temp_serial_logger
-rm -rf build
 cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
@@ -24,8 +22,6 @@ cmake --build build
 ### Windows
 
 ```PowerShell
-cd C:\path\to\temp_serial_logger
-rmdir /s /q build 2>$null
 cmake -S . -B build -G Ninja -DCMAKE_CXX_COMPILER=g++
 cmake --build build
 ```
