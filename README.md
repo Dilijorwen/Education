@@ -24,8 +24,7 @@
 - Кроссплатформенная программа для логирования [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/cros_prog)
 - Логирование температуры [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/temp_serial_logger)
 - Логирование температуры 2 [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/temp_serial_logger_v2)
-- Логирование температуры 3 [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/temp_serial_logger_v3)
-- Логирование температуры 4 [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/temp_serial_logger_v4)
+- Логирование температуры 3 [[**C++**]](https://github.com/Dilijorwen/Education/tree/main/projects/OC/temp_gui_client)
 
 
 ## Суперкомпьютеры и параллельное программирование
