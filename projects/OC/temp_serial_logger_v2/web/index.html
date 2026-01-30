@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Temperature Monitor</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="wrap">
+    <h1>Temperature Monitor</h1>
+
+    <div class="row">
+        <div class="card">
+            <div class="label">Текущая</div>
+            <div id="current" class="big">—</div>
+            <div id="current_ts" class="small">—</div>
+        </div>
+
+        <div class="card grow">
+            <div class="controls">
+                <label>Период (минут): <input id="minutes" type="number" value="180" min="1" max="43200"/></label>
+                <label>Bucket:
+                    <select id="bucket">
+                        <option value="raw">raw</option>
+                        <option value="hour">hour</option>
+                        <option value="day">day</option>
+                    </select>
+                </label>
+                <button id="refresh">Обновить</button>
+            </div>
+
+            <div id="stats" class="small">—</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="label">График</div>
+        <svg id="chart" viewBox="0 0 1000 260" preserveAspectRatio="none"></svg>
+    </div>
+
+    <div class="card">
+        <div class="label">Таблица (последние точки)</div>
+        <table>
+            <thead><tr><th>t(ms)</th><th>value</th><th>count</th></tr></thead>
+            <tbody id="tbl"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

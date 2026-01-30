@@ -32,12 +32,12 @@ cmake --build build
 ### Linux
 
 ```bash
-cd /path/to/temp_serial_logger/build
+cd build
 ./temp_simulator --period-ms 1000 --base 23 --amp 2 --noise 0.2 | ./temp_logger --stdin
 ```
 ### Windows
 
 ```PowerShell
-cd C:\path\to\temp_serial_logger\build
+cd build
 cmd /c ".\temp_simulator.exe --period-ms 1000 --base 23 --amp 2 --noise 0.2 | .\temp_logger.exe --stdin"
 ```
